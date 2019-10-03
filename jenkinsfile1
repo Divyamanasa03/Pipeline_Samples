@@ -1,0 +1,13 @@
+node {  
+    stage('Build') { 
+        echo 'welcome to Build'
+        echo  'welcoem to Dev Build'
+    }
+    stage('Test') { 
+        echo 'Welcoem to test '
+    }
+    stage('Deploy') { 
+        
+        echo 'welcoem to Deeploy'
+    }
+}
