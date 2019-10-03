@@ -1,0 +1,16 @@
+pipeline {
+    agent any
+    parameters {
+        string(name: 'City', defaultValue: 'Chicago', description: 'Enter your city Name?')
+
+    }
+    stages {
+        stage('Example') {
+            steps {
+                echo "Hello ${params.City}"
+
+
+            }
+        }
+    }
+}
