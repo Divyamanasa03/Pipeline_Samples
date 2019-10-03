@@ -1,7 +1,7 @@
 node {  
     stage('Build') { 
     
-       build 'Build_Maven_Pipeline''
+       build 'Build_Maven_Pipeline'
     }
     stage('Test') { 
         echo 'Welcoem to test '
